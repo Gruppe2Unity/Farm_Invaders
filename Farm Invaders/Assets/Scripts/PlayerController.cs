@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 /// <summary>
 /// Spillerbevegelse og skyting er håndtert her. Det nye inut systemet til Unity er brukt
+/// Playermovemenbt and shooting is handled here
+/// The new input system from Unity is used
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
@@ -15,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private float screenBoundary;
 
     /// <summary>
-    /// Init av input-handlinger
+    /// Init of input-actions
     /// </summary>
     private void Awake()
     {
@@ -23,7 +25,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// skrur på input actions når et objekt er aktivt i spillet
+    /// Turns on input actions when an object is active in the game
     /// </summary>
     private void OnEnable()
     {
@@ -32,7 +34,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Skrur av input actions igjen når objekt deaktiveres
+    /// Turns off input actions when an object is disabled
     /// </summary>
     private void OnDisable()
     {
@@ -41,7 +43,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Init av spillets grenser når det starter.
+    /// Init of the screen boundaries when the game starts.
     /// </summary>
     private void Start()
     {
@@ -49,7 +51,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Game loop, håndterer movement på alt hver frame
+    /// Game loop, handles movement of everything each frame
     /// </summary>
     private void Update()
     {
@@ -57,7 +59,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// sørger for bevegelse til høyre og venstre innenfor valgte boundries
+    /// Handles movement to the right and left within the chosen boundaries
     /// </summary>
     private void HandleMovement()
     {
@@ -68,9 +70,9 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Skyter kuler fra "firepoint" når space trykkes inn
+    /// Shoots bullets from the "firepoint" when space is pressed
     /// </summary>
-    /// <param name="context">Inneholder info om input hendelsen.</param>
+    /// <param name="context">Contains info about the input event.</param>
     private void OnFire(InputAction.CallbackContext context)
     {
         Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);

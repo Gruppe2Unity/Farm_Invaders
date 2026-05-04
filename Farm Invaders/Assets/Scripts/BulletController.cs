@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// kontroller kuler som skytes og sletter det når de kommer "offscreen"
+/// Controls bullets that are shot and destroys them when they go offscreen.
 /// </summary>
 public class BulletController : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class BulletController : MonoBehaviour
 
 
     /// <summary>
-    /// Game loop - beveger kuler oppover hver frame, oppdaterer endringene i movebullet
+    /// Game loop - moves bullets upward each frame, updating the changes in MoveBullet
     /// </summary>
     private void Update()
     {
@@ -18,7 +18,7 @@ public class BulletController : MonoBehaviour
     }
 
     /// <summary>
-    /// beveger kuler oppover med konstant fart
+    /// Moves bullets upward at a constant speed
     /// </summary>
     private void MoveBullet()
     {
@@ -27,7 +27,7 @@ public class BulletController : MonoBehaviour
 
 
     /// <summary>
-    /// ødelegger kuler som går ut av bildet.
+    /// Destroys bullets that go off-screen.
     /// </summary>
 
     private void DestroyIfOffScreen()
