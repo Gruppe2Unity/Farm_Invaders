@@ -2,19 +2,20 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
-/// Spillerbevegelse og skyting er håndtert her. Det nye inut systemet til Unity er brukt
-/// Playermovemenbt and shooting is handled here
-/// The new input system from Unity is used
+/// Player movement and shooting is handled here.
+/// The new input system from Unity is used.
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firePoint;
+    [SerializeField] private float fireRate = 0.5f;
 
     private PlayerInputActions inputActions;
     private float horizontalInput;
     private float screenBoundary;
+    private float nextFireTime;
 
     /// <summary>
     /// Init of input-actions
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         screenBoundary = Camera.main.orthographicSize * Camera.main.aspect;
+        nextFireTime = 0f;
     }
 
     /// <summary>
@@ -70,11 +72,15 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Shoots bullets from the "firepoint" when space is pressed
+    /// Shoots bullets from the "firepoint" when space is pressed, respecting fire rate
     /// </summary>
     /// <param name="context">Contains info about the input event.</param>
     private void OnFire(InputAction.CallbackContext context)
     {
-        Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        if (Time.time >= nextFireTime)
+        {
+            Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+            nextFireTime = Time.time + fireRate;
+        }
     }
 }
