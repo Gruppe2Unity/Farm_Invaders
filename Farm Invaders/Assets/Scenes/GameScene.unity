@@ -216,6 +216,14 @@ PrefabInstance:
       value: Shield
       objectReference: {fileID: 0}
     - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
       objectReference: {fileID: 0}
@@ -271,6 +279,10 @@ PrefabInstance:
     - target: {fileID: 4355177998915236451, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
       propertyPath: m_Name
       value: Shield (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -451,6 +463,14 @@ PrefabInstance:
       value: Shield (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
       objectReference: {fileID: 0}
@@ -561,7 +581,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2510476293373519475, guid: 31946263729b13c4b88aa4311275f4f2, type: 3}
+  m_Sprite: {fileID: -6213978267148018314, guid: 3f547c54cf596ae488fc35996b6e0af1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -734,6 +754,10 @@ PrefabInstance:
     - target: {fileID: 4355177998915236451, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
       propertyPath: m_Name
       value: Shield (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4706885383512663356, guid: 9746cd5da7dfc8f41a5a327b1ccaeed6, type: 3}
       propertyPath: m_LocalPosition.x
