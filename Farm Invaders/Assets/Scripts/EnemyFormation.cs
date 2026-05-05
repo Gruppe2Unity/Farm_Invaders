@@ -13,6 +13,15 @@ public class EnemyFormation : MonoBehaviour
     private float moveDirection = 1f;
     private bool shouldStepDown = false;
 
+
+    /// <summary>
+    /// creates automatic edgelimit based on orthograhic camera size
+    /// </summary>
+    private void Start()
+    {
+        edgeLimit = Camera.main.orthographicSize * Camera.main.aspect - 1f;
+    }
+
     /// <summary>
     /// Game loop - moves the formation every frame.
     /// </summary>
@@ -27,20 +36,32 @@ public class EnemyFormation : MonoBehaviour
     }
 
     /// <summary>
-    /// Moves the formation horizontally and checks screen edges.
+    /// Moves the formation horizontally and checks screen edges based on remaining enemies
     /// </summary>
     private void MoveFormation()
     {
         transform.position += Vector3.right * moveDirection * moveSpeed * Time.deltaTime;
 
-        if (transform.position.x >= edgeLimit || transform.position.x <= -edgeLimit)
-        {
-            moveDirection *= -1f;
-            shouldStepDown = true;
+        float rightMost = float.MinValue;
+        float leftMost = float.MaxValue;
 
-            // Clamp position so enemies don't go past edge
-            float clampedX = Mathf.Clamp(transform.position.x, -edgeLimit, edgeLimit);
-            transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
+        foreach (Transform enemy in transform)
+        {
+            if (enemy.position.x > rightMost)
+                rightMost = enemy.position.x;
+            if (enemy.position.x < leftMost)
+                leftMost = enemy.position.x;
+        }
+
+        if (rightMost >= edgeLimit && moveDirection > 0)
+        {
+            moveDirection = -1f;
+            shouldStepDown = true;
+        }
+        else if (leftMost <= -edgeLimit && moveDirection < 0)
+        {
+            moveDirection = 1f;
+            shouldStepDown = true;
         }
     }
 

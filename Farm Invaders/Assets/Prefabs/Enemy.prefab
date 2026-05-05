@@ -196,8 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter
   enemyBulletPrefab: {fileID: 3261411505586054083, guid: 51f53c9b15b6c224e8b6bd101a7f02f4, type: 3}
-  minFireRate: 2
-  maxFireRate: 20
+  minFireRate: 0
+  maxFireRate: 10
 --- !u!95 &8779221726858616187
 Animator:
   serializedVersion: 7

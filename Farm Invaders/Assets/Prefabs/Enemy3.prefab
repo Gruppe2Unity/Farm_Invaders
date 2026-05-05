@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 4.5, y: 4.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -9162977307254790278, guid: a2e49f1b73b5bd44dbde8b763be43009, type: 3}
+  m_Sprite: {fileID: 9101916405265333683, guid: f5c27710f2eaa4c4ab8a6115aebd497e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -196,8 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter
   enemyBulletPrefab: {fileID: 3261411505586054083, guid: 51f53c9b15b6c224e8b6bd101a7f02f4, type: 3}
-  minFireRate: 2
-  maxFireRate: 20
+  minFireRate: 0
+  maxFireRate: 10
 --- !u!95 &8779221726858616187
 Animator:
   serializedVersion: 7
@@ -208,7 +208,7 @@ Animator:
   m_GameObject: {fileID: 7513224075932729982}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 50d2210d8215a684690ddf0d11f2543d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b5e34413e6827f844bf1d4eda19711c1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

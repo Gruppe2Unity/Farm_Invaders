@@ -1,49 +1,58 @@
 fileFormatVersion: 2
-guid: 5fbd3c8b35b2ea1408f09529049ecf45
+guid: f5c27710f2eaa4c4ab8a6115aebd497e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7119886275962653625
-    second: TomatVampyr_0
+      213: 9101916405265333683
+    second: StorMunnMais_6x3_0
   - first:
-      213: 7825559581604400524
-    second: TomatVampyr_1
+      213: -2755947713771084576
+    second: StorMunnMais_6x3_1
   - first:
-      213: -7878604519539411776
-    second: TomatVampyr_2
+      213: -5316885070320925642
+    second: StorMunnMais_6x3_2
   - first:
-      213: 3802782954964217742
-    second: TomatVampyr_3
+      213: -1444049780062562804
+    second: StorMunnMais_6x3_3
   - first:
-      213: -4260816418324090800
-    second: TomatVampyr_4
+      213: 1079758153904747066
+    second: StorMunnMais_6x3_4
   - first:
-      213: 3072409012487349186
-    second: TomatVampyr_5
+      213: 2659133855875095167
+    second: StorMunnMais_6x3_5
   - first:
-      213: -4875967770094036515
-    second: TomatVampyr_6
+      213: 8934628782713062066
+    second: StorMunnMais_6x3_6
   - first:
-      213: 8004228382054540476
-    second: TomatVampyr_7
+      213: 4962468639167568064
+    second: StorMunnMais_6x3_7
   - first:
-      213: -623765389835514141
-    second: TomatVampyr_8
+      213: 1827233593079826263
+    second: StorMunnMais_6x3_8
   - first:
-      213: 7090904815345859995
-    second: TomatVampyr_9
+      213: -6508155904359401350
+    second: StorMunnMais_6x3_9
   - first:
-      213: 1462520767934603800
-    second: TomatVampyr_10
+      213: 3104751088749351155
+    second: StorMunnMais_6x3_10
   - first:
-      213: -4302889375412736236
-    second: TomatVampyr_11
+      213: -5573455791786579187
+    second: StorMunnMais_6x3_11
   - first:
-      213: -571045393137459506
-    second: TomatVampyr_12
+      213: -2059787469590501570
+    second: StorMunnMais_6x3_12
   - first:
-      213: -2443405965347983918
-    second: TomatVampyr_13
+      213: 466644301140374795
+    second: StorMunnMais_6x3_13
+  - first:
+      213: -4528218883120133580
+    second: StorMunnMais_6x3_14
+  - first:
+      213: -8003883206648419642
+    second: StorMunnMais_6x3_15
+  - first:
+      213: 5962675969210540304
+    second: StorMunnMais_6x3_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +148,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TomatVampyr_0
+      name: StorMunnMais_6x3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bbceef58daeec260800000000000000
-      internalID: 7119886275962653625
+      spriteID: 3bdf32f1fb0805e70800000000000000
+      internalID: 9101916405265333683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_1
+      name: StorMunnMais_6x3_1
       rect:
         serializedVersion: 2
         x: 64
@@ -176,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8d4f265af8f99c60800000000000000
-      internalID: 7825559581604400524
+      spriteID: 0e4ef1de728e0c9d0800000000000000
+      internalID: -2755947713771084576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_2
+      name: StorMunnMais_6x3_2
       rect:
         serializedVersion: 2
         x: 128
@@ -198,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c4f01f9ee299a290800000000000000
-      internalID: -7878604519539411776
+      spriteID: 63481f7d231a636b0800000000000000
+      internalID: -5316885070320925642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_3
+      name: StorMunnMais_6x3_3
       rect:
         serializedVersion: 2
         x: 192
@@ -220,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8f6d8413f236c430800000000000000
-      internalID: 3802782954964217742
+      spriteID: c06d36d3064b5fbe0800000000000000
+      internalID: -1444049780062562804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_4
+      name: StorMunnMais_6x3_4
       rect:
         serializedVersion: 2
         x: 256
@@ -242,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 050f3a4da0a8ed4c0800000000000000
-      internalID: -4260816418324090800
+      spriteID: a32f2d6f1521cfe00800000000000000
+      internalID: 1079758153904747066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_5
+      name: StorMunnMais_6x3_5
       rect:
         serializedVersion: 2
         x: 320
@@ -264,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c36402f7b363aa20800000000000000
-      internalID: 3072409012487349186
+      spriteID: f7a56a9372427e420800000000000000
+      internalID: 2659133855875095167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_6
+      name: StorMunnMais_6x3_6
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd99a47a525155cb0800000000000000
-      internalID: -4875967770094036515
+      spriteID: 2b2c7994a8d2efb70800000000000000
+      internalID: 8934628782713062066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_7
+      name: StorMunnMais_6x3_7
       rect:
         serializedVersion: 2
         x: 64
@@ -308,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb4e5752e4bb41f60800000000000000
-      internalID: 8004228382054540476
+      spriteID: 0c8599e5fea3ed440800000000000000
+      internalID: 4962468639167568064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_8
+      name: StorMunnMais_6x3_8
       rect:
         serializedVersion: 2
         x: 128
@@ -330,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eecbabcea0f757f0800000000000000
-      internalID: -623765389835514141
+      spriteID: 7570f259543ab5910800000000000000
+      internalID: 1827233593079826263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_9
+      name: StorMunnMais_6x3_9
       rect:
         serializedVersion: 2
         x: 192
@@ -352,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9dfbce3c54f76260800000000000000
-      internalID: 7090904815345859995
+      spriteID: a78fbc9cfa26ea5a0800000000000000
+      internalID: -6508155904359401350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_10
+      name: StorMunnMais_6x3_10
       rect:
         serializedVersion: 2
         x: 256
@@ -374,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 812af51c3eaeb4410800000000000000
-      internalID: 1462520767934603800
+      spriteID: 3f099e06aaa461b20800000000000000
+      internalID: 3104751088749351155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_11
+      name: StorMunnMais_6x3_11
       rect:
         serializedVersion: 2
         x: 320
@@ -396,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41fa8b629e01944c0800000000000000
-      internalID: -4302889375412736236
+      spriteID: d0ba73f9c7b17a2b0800000000000000
+      internalID: -5573455791786579187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_12
+      name: StorMunnMais_6x3_12
       rect:
         serializedVersion: 2
         x: 0
@@ -418,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ece1b6f8d3d3318f0800000000000000
-      internalID: -571045393137459506
+      spriteID: e37e14aa53a2a63e0800000000000000
+      internalID: -2059787469590501570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TomatVampyr_13
+      name: StorMunnMais_6x3_13
       rect:
         serializedVersion: 2
         x: 64
@@ -440,8 +449,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ddec516837471ed0800000000000000
-      internalID: -2443405965347983918
+      spriteID: b05beedf48ad97600800000000000000
+      internalID: 466644301140374795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StorMunnMais_6x3_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a8866dae88821c0800000000000000
+      internalID: -4528218883120133580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StorMunnMais_6x3_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caa10441ae7ce090800000000000000
+      internalID: -8003883206648419642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StorMunnMais_6x3_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0116d8fc33eafb250800000000000000
+      internalID: 5962675969210540304
       vertices: []
       indices: 
       edges: []
@@ -450,7 +525,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f6a9fd259a6a28b448e8f4df23b196b6
+    spriteID: a3c0d6b726b252947a2bdabab455068a
     internalID: 0
     vertices: []
     indices: 
@@ -462,20 +537,23 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      TomatVampyr_0: 7119886275962653625
-      TomatVampyr_1: 7825559581604400524
-      TomatVampyr_10: 1462520767934603800
-      TomatVampyr_11: -4302889375412736236
-      TomatVampyr_12: -571045393137459506
-      TomatVampyr_13: -2443405965347983918
-      TomatVampyr_2: -7878604519539411776
-      TomatVampyr_3: 3802782954964217742
-      TomatVampyr_4: -4260816418324090800
-      TomatVampyr_5: 3072409012487349186
-      TomatVampyr_6: -4875967770094036515
-      TomatVampyr_7: 8004228382054540476
-      TomatVampyr_8: -623765389835514141
-      TomatVampyr_9: 7090904815345859995
+      StorMunnMais_6x3_0: 9101916405265333683
+      StorMunnMais_6x3_1: -2755947713771084576
+      StorMunnMais_6x3_10: 3104751088749351155
+      StorMunnMais_6x3_11: -5573455791786579187
+      StorMunnMais_6x3_12: -2059787469590501570
+      StorMunnMais_6x3_13: 466644301140374795
+      StorMunnMais_6x3_14: -4528218883120133580
+      StorMunnMais_6x3_15: -8003883206648419642
+      StorMunnMais_6x3_16: 5962675969210540304
+      StorMunnMais_6x3_2: -5316885070320925642
+      StorMunnMais_6x3_3: -1444049780062562804
+      StorMunnMais_6x3_4: 1079758153904747066
+      StorMunnMais_6x3_5: 2659133855875095167
+      StorMunnMais_6x3_6: 8934628782713062066
+      StorMunnMais_6x3_7: 4962468639167568064
+      StorMunnMais_6x3_8: 1827233593079826263
+      StorMunnMais_6x3_9: -6508155904359401350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
