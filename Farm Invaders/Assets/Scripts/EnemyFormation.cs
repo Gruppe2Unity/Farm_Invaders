@@ -37,15 +37,42 @@ public class EnemyFormation : MonoBehaviour
         {
             moveDirection *= -1f;
             shouldStepDown = true;
+
+            // Clamp position so enemies don't go past edge
+            float clampedX = Mathf.Clamp(transform.position.x, -edgeLimit, edgeLimit);
+            transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
         }
     }
 
     /// <summary>
     /// Moves the formation downward one step.
     /// </summary>
+    /// <summary>
+    /// Moves the formation downward one fixed step.
+    /// </summary>
     private void StepDown()
     {
-        transform.position += Vector3.down * stepDown;
+        transform.position = new Vector3(
+            transform.position.x,
+            transform.position.y - stepDown,
+            transform.position.z
+        );
         shouldStepDown = false;
+    }
+    /// <summary>
+    /// Sets the movement speed of the formation.
+    /// </summary>
+    /// <param name="speed">New movement speed.</param>
+    public void SetSpeed(float speed)
+    {
+        moveSpeed = speed;
+    }
+
+    /// <summary>
+    /// Checks if all enemies in the formation are dead.
+    /// </summary>
+    public bool IsEmpty()
+    {
+        return transform.childCount == 0;
     }
 }
