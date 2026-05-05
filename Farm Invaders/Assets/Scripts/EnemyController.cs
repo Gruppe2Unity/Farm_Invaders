@@ -45,13 +45,14 @@ public class EnemyController : MonoBehaviour
     }
 
     /// <summary>
-    /// Destroyes enemy player when health reaches 0
+    /// Destroyes enemy player when health reaches 0 and rewards a score value to the player.
     /// </summary>
     private void TakeDamage()
     {
         health--;
         if (health <= 0)
         {
+            ScoreManager.Instance.AddScore(scoreValue);
             Destroy(gameObject);
         }
     }
