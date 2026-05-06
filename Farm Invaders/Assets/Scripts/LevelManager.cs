@@ -10,9 +10,22 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private GameObject enemyFormationPrefab;
     [SerializeField] private float speedIncreasePerLevel = 0.5f;
+    [SerializeField] private TMPro.TextMeshProUGUI levelText;
+
 
     private int currentLevel = 1;
     private EnemyFormation activeFormation;
+
+    /// <summary>
+    /// Updates the level on the display
+    /// </summary>
+    private void UpdateLevelDisplay()
+    {
+        if (levelText != null)
+        {
+            levelText.text = $"Level: {currentLevel}";
+        }
+    }
 
     /// <summary>
     /// Initializes the singleton instance to make access easier
@@ -32,6 +45,7 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     private void Start()
     {
+        UpdateLevelDisplay();
         SpawnFormation();
     }
 
@@ -53,6 +67,7 @@ public class LevelManager : MonoBehaviour
     {
         currentLevel++;
         Debug.Log($"Level {currentLevel}!");
+        UpdateLevelDisplay();
         SpawnFormation();
     }
 
@@ -70,4 +85,6 @@ public class LevelManager : MonoBehaviour
     /// Returns the current level number.
     /// </summary>
     public int GetCurrentLevel() => currentLevel;
+
+
 }
