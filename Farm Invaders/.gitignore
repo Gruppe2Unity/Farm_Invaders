@@ -11,3 +11,9 @@ Thumbs.db
 *.csproj
 *.sln
 *.user
+D3D12/
+Farm Invaders_Data/
+MonoBleedingEdge/
+*.exe
+*.dll
+*_BurstDebugInformation_DoNotShip/
