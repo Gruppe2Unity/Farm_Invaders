@@ -3321,6 +3321,54 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1923723401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1923723403}
+  - component: {fileID: 1923723402}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1923723402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923723401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f990fb51cdc42dc48b5398ca654045e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  shootSound: {fileID: 8300000, guid: 7ce0b92a5a41d0a46a23630171600f7e, type: 3}
+  enemyDeathSound: {fileID: 8300000, guid: c366c74635b5b4a43a14db879ba3045c, type: 3}
+  playerHitSound: {fileID: 8300000, guid: 919527c3c7cccba4986e9ffcada070e4, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: bd5c3659e5fc46b459d234ba889742ab, type: 3}
+--- !u!4 &1923723403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923723401}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2366, y: -0.28102, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1934130060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3743,7 +3791,8 @@ SceneRoots:
   - {fileID: 1000133743}
   - {fileID: 757143698}
   - {fileID: 1111407110}
-  - {fileID: 1515699185}
   - {fileID: 239483630}
+  - {fileID: 1515699185}
   - {fileID: 1614562173}
   - {fileID: 1950465409}
+  - {fileID: 1923723403}

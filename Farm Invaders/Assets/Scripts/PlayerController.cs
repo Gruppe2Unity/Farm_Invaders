@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
     /// <summary>
     /// Shoots bullets from the "firepoint" when space is pressed, respecting fire rate
+    /// Plays a sound as the bullet is fired
     /// </summary>
     /// <param name="context">Contains info about the input event.</param>
     private void OnFire(InputAction.CallbackContext context)
@@ -81,6 +82,7 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
             nextFireTime = Time.time + fireRate;
+            AudioManager.Instance.PlayShootSound();
         }
     }
 }

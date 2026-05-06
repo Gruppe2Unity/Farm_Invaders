@@ -46,6 +46,7 @@ public class EnemyController : MonoBehaviour
 
     /// <summary>
     /// Destroyes enemy player when health reaches 0 and rewards a score value to the player.
+    /// Plays a sound as the enemy is killed
     /// </summary>
     private void TakeDamage()
     {
@@ -53,6 +54,7 @@ public class EnemyController : MonoBehaviour
         if (health <= 0)
         {
             ScoreManager.Instance.AddScore(scoreValue);
+            AudioManager.Instance.PlayEnemyDeathSound();
             Destroy(gameObject);
         }
     }
