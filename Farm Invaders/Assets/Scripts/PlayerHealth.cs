@@ -7,6 +7,8 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int maxLives = 3;
+     [SerializeField] private GameObject[] hearts;
+     [SerializeField] private GameObject gameOverPanel;
 
     private int currentLives;
     private int hitCount;
@@ -18,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentLives = maxLives;
         hitCount = 0;
+        UpdateHeartsUI();
     }
 
     /// <summary>
@@ -42,6 +45,8 @@ public class PlayerHealth : MonoBehaviour
         currentLives--;
         Destroy(source);
 
+        UpdateHeartsUI();
+
         Debug.Log($"Player hit! Lives remaining: {currentLives} | Total hits: {hitCount}");
 
         if (currentLives <= 0)
@@ -50,6 +55,15 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    
+    private void UpdateHeartsUI()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            hearts[i].SetActive(i < currentLives);
+        }
+    }
+    
     /// <summary>
     /// Handles player death when all lives are lost.
     /// </summary>
@@ -57,6 +71,8 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Game Over!");
         gameObject.SetActive(false);
+        gameOverPanel.SetActive(true);
+        Time.timeScale = 0f; 
     }
 
     /// <summary>
