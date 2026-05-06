@@ -66,9 +66,6 @@ public class EnemyFormation : MonoBehaviour
     }
 
     /// <summary>
-    /// Moves the formation downward one step.
-    /// </summary>
-    /// <summary>
     /// Moves the formation downward one fixed step.
     /// </summary>
     private void StepDown()
